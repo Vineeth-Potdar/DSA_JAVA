@@ -38,7 +38,7 @@ public class Mergesort {
 	            k++;
 	        }
 	    }
-	    static void mergeSort(int arr[], int l, int r){
+	    public static void mergeSort(int arr[], int l, int r){
 	        
 	        if (l < r) {
 	            int m = l + (r - l) / 2;
