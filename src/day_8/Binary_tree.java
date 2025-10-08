@@ -58,7 +58,7 @@ public class Binary_tree {
 		    }
 
 		    public static void main(String[] args) {
-		        int nodes[] = {1, 2, 4, 4,7,3,9};
+		        int nodes[] = {1, 2, 4, 5, 7, 3, 9};
 
 		        BinaryTree tree = new BinaryTree();
 		        Node root = tree.buildTree(nodes);
